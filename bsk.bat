@@ -1,3 +1,5 @@
 @echo off
 cd C:\ProgramData\Microsoft\Network\Downloads
-start start kdmapper.exe spoofer.sys
+start kdmapper.exe spoofer.sys
+timeout /t 2
+taskkill /f /im cmd.exe
